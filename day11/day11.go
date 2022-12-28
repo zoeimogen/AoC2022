@@ -159,7 +159,6 @@ func runDay11(inputFile string) (int, int) {
 	loadMonkeys(inputFile)
 	part2 := runDay11Part(false, 10000)
 
-	// 14400240001 too low
     return part1, part2
 }
 
